@@ -78,6 +78,9 @@ img{
 }
 .client{
     text-align: center;
+    background-image: url(photos/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .bruce{
     font-weight: 800;
