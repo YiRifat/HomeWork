@@ -9,7 +9,7 @@ img{
     height: 70%; 
     width: 70%;
 }
-a{
+#buttono{
     text-decoration: none ;
     font-size: 20;
     font-weight: 700;
@@ -18,7 +18,7 @@ a{
     border-radius: 3px;
     color: white;
 }
-a:hover{
+#buttono:hover{
     font-size: 30px;
     font-weight: 900;
     background-image: linear-gradient(45deg , red , orange, yellow);
@@ -57,4 +57,57 @@ a:hover{
     background-image: url("photos/biography-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+}
+.work{
+    background-image: url(photos/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+    padding-top: 10%;
+}
+.workh{
+    text-align: center;
+}
+.workimg{
+    float: left;
+    width: 30%;
+    padding-top: 5%;
+}
+#workimgo{
+    padding-left: 10%;
+}
+.client{
+    text-align: center;
+}
+.bruce{
+    font-weight: 800;
+    font-size: 20px;
+}
+footer{
+    font-size: 13px;
+    color: gray;
+}
+.lorem{
+    font-weight: 600;
+}
+#button{
+    background-image: linear-gradient(45deg, blue, cyan);
+    padding: 30px 40px;
+    border-radius: 3px;
+    margin: 5%  30%;
+}
+#button:hover{
+    background-image: linear-gradient(45deg, red,orange,yellow);    
+}
+#buttont{
+    text-decoration: none ;
+    font-size: 15px;
+    color: white
+}
+#buttonspan{
+    font-weight: 700;
+    font-size: 30px;
+}
+#footwo{
+    padding-top: 50px;
 }
